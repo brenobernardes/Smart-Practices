@@ -1,0 +1,35 @@
+:root {
+    --black: #000000;
+    --gray: #636363;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+}
+
+.headerLogo img {
+    width: 110px;
+    margin: 10px 0 0 15px;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.list li {
+    margin: -80px 80px 0 0;
+}
+
+.list a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.list a:hover {
+    background-color: var(--gray);
+    transition: .3s;
+}
