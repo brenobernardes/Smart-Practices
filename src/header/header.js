@@ -28,11 +28,17 @@ function Header () {
                     </li>
 
                     <li>
-                        <a>Whatsapp</a>
+                        <button><a>Whatsapp</a></button>
                     </li>
 
                 </ul>
 
+            </div>
+
+            <div className="headerBottom">
+                <h1>Smart Practices</h1>
+                <h2>Gestão Financeira e Contabilidade  para todos os tipos de Negócios</h2>
+                <button><a>Seja Nosso Cliente</a></button>
             </div>
 
         </div>

@@ -1,12 +1,16 @@
 :root {
+    --white: #ffffff;
     --black: #000000;
     --gray: #636363;
+    --orange: #f4a950;
+    --lightOrange: #f7c282;
 }
 
 .header {
     margin: 0;
     padding: 0;
     background-color: var(--black);
+    
 }
 
 .headerLogo img {
@@ -25,11 +29,38 @@
 }
 
 .list a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
+
 .list a:hover {
-    background-color: var(--gray);
     transition: .3s;
+    border-bottom: 2px solid var(--orange);
+}
+
+.list button {
+    background-color: var(--orange);
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.list button:hover {
+    background-color: var(--lightOrange);
+    transition: .3s;
+}
+
+.headerBottom {
+    background-image: url('../images/logo_shade.svg');
+    color: var(--white);
+    text-align: center;
+}
+
+.headerBottom button {
+    color: var(--black);
+    background-color: var(--orange);
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
 }
