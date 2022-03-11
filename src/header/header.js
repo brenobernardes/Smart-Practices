@@ -1,11 +1,15 @@
 import React from "react";
 import logo from '../images/logo_laranja.svg';
 import '../header/header.css';
+import BackgroundImage from '../images/logo_shade.svg';
 
 function Header () {
 
     return (
-        <div className="header">
+        <div className="header" style = {{ backgroundImage: `url(${BackgroundImage})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover"
+            }} >
 
             <div className="headerLogo">
                 <img src={logo} alt= "Logo da Smart Practices Laranja" />
