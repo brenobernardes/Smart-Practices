@@ -8,6 +8,26 @@
 }
 
 .section-2 {
+    padding: 0;
+    margin: -20px 0 0;
     background-color: var(--darkGray);
     color: var(--white);
 }
+
+.section-2 h2 {
+    text-align: center;
+}
+
+.section-2 li {
+    display:block;
+    list-style-type: none;
+    margin:0;
+    box-sizing: border-box;
+    height:25%;    
+}
+
+.section-2 li:nth-child(odd) {
+    clear:both;
+    float:left;
+    width:50%;
+  }
