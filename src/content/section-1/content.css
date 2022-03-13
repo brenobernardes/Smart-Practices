@@ -1,0 +1,33 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #636363;
+    --orange: #f4a950;
+    --lightOrange: #f7c282;
+    --darkGray: #161B21;
+}
+
+.mainContent {
+    padding: 0;
+    margin: -20px 0 0;
+    background-color: var(--darkGray);
+    color: var(--white);
+}
+
+.sectionTitle {
+    color: var(--orange);
+}
+
+.mainContent li {
+    display:block;
+    list-style-type: none;
+    margin:0;
+    box-sizing: border-box;
+    height:25%;    
+}
+
+.mainContent li:nth-child(odd) {
+    clear:both;
+    float:left;
+    width:50%;
+}
