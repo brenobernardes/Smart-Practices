@@ -8,6 +8,22 @@
 }
 
 .section-3 {
+    padding: 0;
+    margin: -20px 0 0;
     background-color: var(--black);
     color: var(--white);
+}
+
+.section-3 li {
+    display:block;
+    list-style-type: none;
+    margin:0;
+    box-sizing: border-box;
+    height:25%;    
+}
+
+.section-3 li:nth-child(odd) {
+    clear:both;
+    float:left;
+    width:50%;
 }
