@@ -1,0 +1,15 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #636363;
+    --orange: #f4a950;
+    --lightOrange: #f7c282;
+    --darkGray: #161B21;
+}
+
+.contactInfo {
+    padding: 0;
+    margin: -20px 0 0;
+    background-color: var(--darkGray);
+    color: var(--white);
+}
