@@ -1,10 +1,14 @@
-import React from "react";
-import "../button/button.css";
+import styled from "styled-components";
 
-function Button () {
-    return (
-        <button className="button">Saiba mais</button>
-    );
-}
+export const Button = styled.button`
+    background-color: #f4a950;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    border: #f4a950;
 
-export default Button;
+    &:hover {
+        transition: .3s;
+        background-color: #f7c282;
+    }
+`;

@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../images/logo_laranja.svg';
 import '../header/header.css';
+import { Button } from "../components/button/button";
 import BackgroundImage from '../images/logo_shade.svg';
 
 function Header () {
@@ -18,7 +19,6 @@ function Header () {
             <div className="list">
 
                 <ul>
-
                     <li>
                         <a>Início</a>
                     </li>
@@ -32,7 +32,7 @@ function Header () {
                     </li>
 
                     <li>
-                        <button><a>Whatsapp</a></button>
+                        <Button>Whatsapp</Button>
                     </li>
 
                 </ul>
@@ -42,7 +42,7 @@ function Header () {
             <div className="headerBottom">
                 <h1>Smart Practices</h1>
                 <h2>Gestão Financeira e Contabilidade  para todos os tipos de Negócios</h2>
-                <button><a>Seja Nosso Cliente</a></button>
+                <Button>Seja Nosso Cliente</Button>
             </div>
 
         </div>

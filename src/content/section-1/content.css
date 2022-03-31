@@ -15,6 +15,8 @@
 }
 
 .sectionTitle {
+    padding: 100px 0 0 150px;
+    width: 80vw;
     color: var(--orange);
 }
 
@@ -24,6 +26,10 @@
     margin:0;
     box-sizing: border-box;
     height:25%;    
+}
+
+.mainContent li {
+    padding: 0 100px;
 }
 
 .mainContent li:nth-child(odd) {
